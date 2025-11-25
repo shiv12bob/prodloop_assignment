@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pydantic
+google-cloud-pubsub
+google-cloud-functions
+requests
+python-dotenv

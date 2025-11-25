@@ -1,0 +1,10 @@
+{
+  "event_type": "task.created",
+  "task_id": "sample-id-123",
+  "timestamp": "2025-01-01T00:00:00Z",
+  "data": {
+    "title": "Fix login bug",
+    "description": "Users can't sign in when using OAuth provider X",
+    "priority": "high"
+  }
+}
