@@ -7,19 +7,19 @@
 [![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Ready-orange)](https://cloud.google.com/)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
-## 📋 Overview
+##  Overview
 
 A production-ready **Task Management API** built with **FastAPI**, featuring:
 
-- ✅ **Complete REST API** - Full CRUD operations with advanced filtering
-- ✅ **Event-Driven Architecture** - Google Cloud Pub/Sub integration
-- ✅ **AI Integration** - Gemini 2.5 Flash for intelligent task processing
-- ✅ **Cloud Native** - Cloud Run deployment with CI/CD pipeline
-- ✅ **Enterprise Grade** - Comprehensive error handling, logging, and documentation
+- **Complete REST API** - Full CRUD operations with advanced filtering
+-  **Event-Driven Architecture** - Google Cloud Pub/Sub integration
+-  **AI Integration** - Gemini 2.5 Flash for intelligent task processing
+-  **Cloud Native** - Cloud Run deployment with CI/CD pipeline
+  
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Local Development (3 minutes)
 
@@ -48,7 +48,7 @@ docker run -p 8080:8080 prodloop-api
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 prodloop_task_project/
@@ -74,7 +74,7 @@ prodloop_task_project/
 
 ---
 
-## 📚 API Endpoints
+##  API Endpoints
 
 All endpoints are fully documented with **Swagger UI** and **OpenAPI 3.0**.
 
@@ -100,7 +100,7 @@ All endpoints are fully documented with **Swagger UI** and **OpenAPI 3.0**.
 
 ## 🔧 Features
 
-### REST API (30 points) ✅
+### REST API  
 
 - **5 Complete Endpoints** - Full CRUD operations
 - **Advanced Filtering** - Filter by priority and status
@@ -109,7 +109,7 @@ All endpoints are fully documented with **Swagger UI** and **OpenAPI 3.0**.
 - **Auto-Documentation** - Swagger UI and ReDoc
 - **Health Check** - System status monitoring
 
-### Pub/Sub & AI Integration (40 points) ✅
+### Pub/Sub & AI Integration 
 
 - **Event Publishing** - Automatic event generation on task creation
 - **Google Cloud Pub/Sub** - Production-grade message queue
@@ -120,14 +120,14 @@ All endpoints are fully documented with **Swagger UI** and **OpenAPI 3.0**.
 - **Fallback Mechanism** - Continues operation if Gemini is unavailable
 - **Comprehensive Logging** - Track all events and AI outputs
 
-### Cloud Deployment (20 points) ✅
+### Cloud Deployment 
 
 - **Dockerfile** - Python 3.11+ optimized for Cloud Run
 - **Environment Variables** - Full configuration support
 - **Production Server** - uvicorn with worker configuration
 - **Health Checks** - Cloud Run integration ready
 
-### CI/CD Pipeline (10 points) ✅
+### CI/CD Pipeline 
 
 - **GitHub Actions** - Automated build and deployment
 - **Artifact Registry** - Docker image storage in GCP
@@ -136,7 +136,7 @@ All endpoints are fully documented with **Swagger UI** and **OpenAPI 3.0**.
 
 ---
 
-## 📝 API Examples
+## API Examples
 
 ### Create a Task
 
@@ -194,7 +194,7 @@ curl -X DELETE http://localhost:8080/tasks/550e8400-e29b-41d4-a716-446655440000
 
 ---
 
-## 🔐 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -218,7 +218,7 @@ PORT=8080
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Local Development
 
@@ -256,14 +256,14 @@ gcloud run deploy task-api \
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The system follows a **microservices architecture** with event-driven design:
 See **[ARCHITECTURE.md](ARCHITECTURE.md)** for detailed system design documentation.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Run Comprehensive Tests
 
@@ -272,10 +272,10 @@ python test_api.py
 ```
 
 This tests:
-- ✅ All 5 REST endpoints
-- ✅ Error handling (404, 422)
-- ✅ Filtering functionality
-- ✅ Task lifecycle operations
+-  All 5 REST endpoints
+-  Error handling (404, 422)
+-  Filtering functionality
+-  Task lifecycle operations
 
 ### Manual Testing with Swagger UI
 
@@ -285,18 +285,18 @@ This tests:
 
 ---
 
-## 📊 Requirements Achievement
+##  Requirements Achievement
 
 | Requirement | Status | Details |
 |-------------|--------|---------|
-| **Part 1: REST API ** | ✅ 100% | 5 endpoints, validation, error handling |
-| **Part 2: Pub/Sub & Gemini ** | ✅ 100% | Event publishing, AI integration, fallback |
-| **Part 3: Cloud Run ** | ✅ 100% | Dockerfile, env vars, production-ready |
-| **Part 4: CI/CD ** | ✅ 100% | GitHub Actions, Artifact Registry, deployment |
+| **Part 1: REST API ** |  100% | 5 endpoints, validation, error handling |
+| **Part 2: Pub/Sub & Gemini ** | 100% | Event publishing, AI integration, fallback |
+| **Part 3: Cloud Run ** | 100% | Dockerfile, env vars, production-ready |
+| **Part 4: CI/CD ** | 100% | GitHub Actions, Artifact Registry, deployment |
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 - **[README.md](README.md)** - Overview and quick start (this file)
 - **[DEPLOYMENT.md](DEPLOYMENT.md)** - Step-by-step deployment guide
@@ -308,7 +308,7 @@ This tests:
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Technology | Version |
 |-----------|-----------|---------|
@@ -323,7 +323,7 @@ This tests:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
 - Code style and conventions
@@ -333,13 +333,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## ✨ Features Highlights
+##  Features Highlights
 
 ### Production-Ready Code
 - Global exception handlers for 404, 422, 500 errors
@@ -367,7 +367,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🔗 Links
+##  Links
 
 - **[Swagger UI Docs](http://localhost:8080/docs)** - Interactive API documentation
 - **[ReDoc Docs](http://localhost:8080/redoc)** - Alternative API documentation
@@ -377,7 +377,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🆘 Support
+##  Support
 
 For issues or questions:
 
@@ -388,7 +388,7 @@ For issues or questions:
 
 ---
 
-## 📈 Performance
+##  Performance
 
 - **Response Time**: < 100ms (local)
 - **Concurrent Requests**: Limited by server resources
@@ -397,7 +397,7 @@ For issues or questions:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 1. **Clone this repository**
 2. **Follow [QUICK_START.md](QUICK_START.md)** to get running locally
@@ -405,10 +405,6 @@ For issues or questions:
 4. **Test the API** using provided Swagger UI
 5. **Monitor** via Cloud Logging
 
----
-
-**Built with ❤️ for Prodloop Backend Engineering**
-```
 
 2. Run the FastAPI app:
 
