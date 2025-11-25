@@ -259,16 +259,6 @@ gcloud run deploy task-api \
 ## 🏗️ Architecture
 
 The system follows a **microservices architecture** with event-driven design:
-
-```
-[REST API] --publish--> [Pub/Sub Topic] --trigger--> [Cloud Function]
-   |                                                      |
-   |                                                      v
-   |                                                  [Gemini 2.5 Flash]
-   |                                                      |
-   +--------- [In-Memory Storage] <---------------------+
-```
-
 See **[ARCHITECTURE.md](ARCHITECTURE.md)** for detailed system design documentation.
 
 ---
@@ -299,11 +289,10 @@ This tests:
 
 | Requirement | Status | Details |
 |-------------|--------|---------|
-| **Part 1: REST API (30 pts)** | ✅ 100% | 5 endpoints, validation, error handling |
-| **Part 2: Pub/Sub & Gemini (40 pts)** | ✅ 100% | Event publishing, AI integration, fallback |
-| **Part 3: Cloud Run (20 pts)** | ✅ 100% | Dockerfile, env vars, production-ready |
-| **Part 4: CI/CD (10 pts)** | ✅ 100% | GitHub Actions, Artifact Registry, deployment |
-| **TOTAL** | ✅ **100%** | **All requirements met** |
+| **Part 1: REST API ** | ✅ 100% | 5 endpoints, validation, error handling |
+| **Part 2: Pub/Sub & Gemini ** | ✅ 100% | Event publishing, AI integration, fallback |
+| **Part 3: Cloud Run ** | ✅ 100% | Dockerfile, env vars, production-ready |
+| **Part 4: CI/CD ** | ✅ 100% | GitHub Actions, Artifact Registry, deployment |
 
 ---
 
